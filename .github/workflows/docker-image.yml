@@ -1,10 +1,10 @@
-name: Docker Image CI
+name: CI to Docker Hub
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
 
